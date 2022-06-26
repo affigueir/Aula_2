@@ -55,7 +55,7 @@ namespace Cilindro
                     System.Console.WriteLine("_________________________\n");
                 }
             }
-            v = Math.PI * (r*r) * a;
+            v = Math.PI * Math.Pow(r, 2) * a;
             s = 2 * Math.PI * r * (r + a);
 
             System.Console.WriteLine($"\nThe cylinder's volume is {v:f2}");
