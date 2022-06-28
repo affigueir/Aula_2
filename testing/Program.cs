@@ -6,7 +6,7 @@ namespace testing
     {
         static void Main(string[] args)
         {
-            int a = 0;
+           /* int a = 0;
             bool loop = false;
 
             while (loop == false)
@@ -24,9 +24,10 @@ namespace testing
             else
             {
                 System.Console.WriteLine($"{input} is not a number!");
-                System.Console.WriteLine("_________________________");
-            }
-            }
+                System.Console.WriteLine("_________________________"); */
+                for (int i = 10, j = 2; i > 0; i -=2, j *=2)
+                    Console.WriteLine($"{i}/{j}");
+            
 
             
         }
